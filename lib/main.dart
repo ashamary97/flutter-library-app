@@ -10,7 +10,7 @@ class Home extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text("Library App"),
-          backgroundColor: Colors.amber,
+          backgroundColor: Colors.pinkAccent,
         ),
         body: Container(
           padding: EdgeInsets.only(left: 10.0,right: 10.0),
@@ -48,10 +48,12 @@ class Home extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 20.0,),
-              RaisedButton(onPressed: (){
+              RaisedButton(
+                color: Colors.pinkAccent,
+                onPressed: (){
 
               },
-              child: Text("Submit"),
+              child: Text("SUBMIT"),
               )
             ],
           ),
